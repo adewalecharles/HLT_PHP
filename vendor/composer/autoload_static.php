@@ -88,6 +88,7 @@ class ComposerStaticInit4d0f7400551cb5ae6e2438e693bd0e1b
     );
 
     public static $classMap = array (
+        'BillingController' => __DIR__ . '/../..' . '/app/core/BillingController.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',

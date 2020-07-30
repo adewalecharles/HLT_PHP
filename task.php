@@ -20,6 +20,6 @@ mobile_number and amount_to_bill -->
 
 <!- Depending on the amount of resource time the API can handle concurrently, our solution can work in less than 20 minutes for an Ideal System, If the server can handle ten requests at an instance of time, we would be looking at executing 10 requests in one second! We do not have to wait for one to be done before executing the other ->
 
-<!- Problems may however arise in the case of the Billing API not able to handle all requests leading to failed Jobs, hence, we write a have a recursive approach that keeps executing when there are 1 or more Failed Jobs ->
+<!- Problems may however arise in the case of the Billing API not able to handle all requests leading to failed Jobs, hence, we need to write recursive approach that keeps executing when there are 1 or more Failed Jobs ->
 
 
